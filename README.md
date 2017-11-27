@@ -1,1 +1,1 @@
-# cesium-glitch
+A Hello World for Cesium.js
