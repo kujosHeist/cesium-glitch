@@ -23,8 +23,10 @@
 <body>
 <div id="cesiumContainer"></div>
 <script>
-  var viewer = new Cesium.Viewer('cesiumContainer');  
-  
+  var viewer = new Cesium.Viewer('cesiumContainer'); 
+
+  var ds = Cesium.CzmlDataSource.load("data.czml");
+  viewer.dataSources.add(ds);
   
 </script>
 </body>
